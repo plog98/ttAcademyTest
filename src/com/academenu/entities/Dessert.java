@@ -5,7 +5,7 @@ public final class Dessert extends MenuItem {
     private int test;
 
     public int getTest() {
-        return test + 1;
+        return test;
     }
 
     public void setTest(int test) {
