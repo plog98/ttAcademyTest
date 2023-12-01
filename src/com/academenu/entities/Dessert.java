@@ -2,7 +2,6 @@ package com.academenu.entities;
 
 public final class Dessert extends MenuItem {
     private boolean sugarFree;
-    private int test;
 
     public Dessert(String name, double price, boolean sugarFree) {
         super(name, price);
