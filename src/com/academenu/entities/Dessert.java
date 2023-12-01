@@ -4,6 +4,14 @@ public final class Dessert extends MenuItem {
     private boolean sugarFree;
     private int test;
 
+    public int getTest() {
+        return test;
+    }
+
+    public void setTest(int test) {
+        this.test = test;
+    }
+
     public Dessert(String name, double price, boolean sugarFree) {
         super(name, price);
         this.sugarFree = sugarFree;
