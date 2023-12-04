@@ -3,6 +3,19 @@ package com.academenu.entities;
 public final class Dessert extends MenuItem {
     private boolean sugarFree;
     private int test;
+    private boolean withHands;
+
+    public boolean isWithHands() {
+        return withHands;
+    }
+
+    public void setWithHands(boolean withHands) {
+        this.withHands = withHands;
+    }
+
+
+
+
 
     public int getTest() {
         return test;
@@ -11,6 +24,9 @@ public final class Dessert extends MenuItem {
     public void setTest(int test) {
         this.test = test;
     }
+
+
+
 
     public Dessert(String name, double price, boolean sugarFree) {
         super(name, price);
