@@ -2,7 +2,7 @@ package com.academenu.entities;
 
 public final class Dessert extends MenuItem {
     private boolean sugarFree;
-    private int test;
+
     private boolean withHands;
     private boolean withFruit;
 
@@ -22,17 +22,6 @@ public final class Dessert extends MenuItem {
         this.withHands = withHands;
     }
 
-
-
-
-
-    public int getTest() {
-        return test;
-    }
-
-    public void setTest(int test) {
-        this.test = test;
-    }
 
 
 
