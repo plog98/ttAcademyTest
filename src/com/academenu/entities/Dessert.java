@@ -4,6 +4,19 @@ public final class Dessert extends MenuItem {
     private boolean sugarFree;
     private int test;
     private boolean withHands;
+    private boolean withFruit;
+
+    public boolean isWithFruit() {
+        return withFruit;
+    }
+
+    public void setWithFruit(boolean withFruit) {
+        this.withFruit = withFruit;
+    }
+
+
+
+
 
     public boolean isWithHands() {
         return withHands;
