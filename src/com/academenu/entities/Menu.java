@@ -6,6 +6,8 @@ public class Menu {
     private MenuItem[] secondCourses;
     private MenuItem[] desserts;
 
+    private MenuItem[] drinks = new Drink[10];
+
     public Menu() {
         this.starters = new MenuItem[10];
         this.firstCourses = new MenuItem[10];
