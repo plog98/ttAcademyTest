@@ -1,17 +1,13 @@
 package com.academenu.entities;
 
 public class Menu {
-    private final MenuItem[] starters;
-    private final MenuItem[] firstCourses;
-    private final MenuItem[] secondCourses;
-    private final MenuItem[] desserts;
+    private MenuItem[] starters = new Starter[10];
+    private MenuItem[] firstCourses = new FirstCourse[10];
+    private MenuItem[] secondCourses = new SecondCourse[10];
+    private MenuItem[] desserts = new Dessert[10];
 
-    public Menu() {
-        this.starters = new MenuItem[10];
-        this.firstCourses = new MenuItem[10];
-        this.secondCourses = new MenuItem[10];
-        this.desserts = new MenuItem[10];
-    }
+    private MenuItem[] drinks = new Drink[10];
+
     public String getStarters() {
         return getNames(starters);
     }
